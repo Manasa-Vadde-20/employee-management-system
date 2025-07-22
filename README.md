@@ -50,11 +50,12 @@ cd employee-management-system
 - Click Finish
 
 4. Configure MySQL DB in application.properties
-spring.datasource.url=jdbc:mysql://localhost:3306/your_db_name
+spring.datasource.url=jdbc:mysql://localhost:9090/your_db_name
 spring.datasource.username=your_username
 spring.datasource.password=your_password
+server.port=9090
 
-5. Run the Project  
+6. Run the Project  
 Using Spring Tool Suite:
 - Right-click the project → Run As→ Spring Boot App
 
